@@ -3,7 +3,8 @@ require('dotenv').config();
 
  //const mongoURl = 'mongodb://localhost:27017/hotels';
  //const mongoURl = 'mongodb+srv://Helloworld:helloworld@cluster0.a8hf5qg.mongodb.net/hotel';
-                
+//const mongoURl = process.env.MONGODB_URL_LOCAL;
+      
  const mongoURl = process.env.MONGODB_URL;
 
 // console.log(mongoURl);
